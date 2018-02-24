@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #222d3b;
+	
+}
+button{
+	text-transform: uppercase;
+	color: white;
+	padding-left: 60px;
+	margin: 5px;
+	border: none;
+	width: 150px;
+	height: 50px;
+	position: relative;
+	font-size: 16px;
+	text-align: left;
+}
+button:hover{
+	opacity: 0.7;
+	transition: all 0.5s;
+	transform: rotate(10deg);
+}
+span{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50px;
+	height:50px;
+	background: #a2677b;
+}
+i{
+	padding: 9px;
+	width: 100%;
+	text-align: center;
+}
+button:nth-child(1){
+	background: #e89abb;
+}
+button:nth-child(1) i{
+	background: #a2677b;
+}
+button:nth-child(2){
+	background: #9b665b;
+}
+button:nth-child(2) i{
+	background: #61403a;
+}
+button:nth-child(3){
+	background: #5e5c5e;
+}
+button:nth-child(3) i{
+	background: #444348;
+}
+button:nth-child(4){
+	background: #a75e9a;
+}
+button:nth-child(4) i{
+	background: #74496c;
+}
+button:nth-child(5){
+	background: #03b55b;
+}
+button:nth-child(5) i{
+	background: #047b49;
+}
+button:nth-child(6){
+	background: #a9bba2;
+}
+button:nth-child(6) i{
+	background: #778575;
+}
+button:nth-child(7){
+	background: #c06108;
+}
+button:nth-child(7) i{
+	background: #894108;
+}
+button:nth-child(8){
+	background: #008162;
+}
+button:nth-child(8) i{
+	background: #004d43;
+}
+button:nth-child(9){
+	background: #584c56;
+}
+button:nth-child(9) i{
+	background: #40333d;
+}
+button:nth-child(10){
+	background: #a977c0;
+}
+button:nth-child(10) i{
+	background: #725182;
+}
